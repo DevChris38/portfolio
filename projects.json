@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Flower Clicker",
+        "description": "Projet réalisé à la wild code school en quelques jours, en équipe de 3.",
+        "technologies": ["HTML5/CSS3", "JS"],
+        "imgSrc": "assets/FlowerClicker.png",
+        "href": "https://devchris38.github.io/Flower_clicker/"
+    },
+    {
+        "name": "Snake",
+        "description": "Petit jeu de snake très simple en HTML5/CSS3 JS Canvas",
+        "technologies": ["HTML5/CSS3", "JS"],
+        "imgSrc": "assets/Snake.png",
+        "href": "https://devchris38.github.io/snake/"
+    },
+    {
+        "name": "Lyonnaiseries marines",
+        "description": "Page d'acceuil d'un site e-commerce de bijoux artisanaux Lyonnais",
+        "technologies": ["HTML5/CSS3", "JS"],
+        "imgSrc": "assets/lyonnaiseries_marines.png",
+        "href": "https://devchris38.github.io/Lyonnaiseries_marines/"
+    }
+]

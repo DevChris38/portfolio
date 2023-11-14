@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: hsl(209, 23%, 10%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: hsl(51, 82%, 98%);
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 5vh;
+}
+
+#competences {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnCompetence {
+  height: 4vh;
+  width: clamp(75px, 10vw, 200px);
+  font-size: 1rem;
+  margin: 0 1vw;
+}
+
+#arrow {
+  display: inline-block;
+  height: 4vw;
+  width: 4vw;
+  border-bottom: 4vw solid hsl(51, 82%, 98%);
+  border-right: 4vw solid transparent;
+  position: absolute;
+  rotate: 45deg;
+  bottom: 49vh;
+  left: 5vw;
+}
+
+#projects {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.oneProject {
+  width: 44vh;
+  height: 27.5vh;
+  background-color: hsl(51, 82%, 98%);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.oneProject > p,
+.oneProject > h2 {
+  color: hsl(209, 23%, 10%);
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+}
+
+.divLink {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+h2 {
+  color: pink;
+}

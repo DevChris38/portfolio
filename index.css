@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: hsl(209, 23%, 10%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  gap: 10vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: hsl(51, 82%, 98%);
+}
+
+#imgProfile {
+  width: 20vw;
+  border-radius: 100%;
+  margin: 0 40vw;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+#title {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+#linkedIn {
+  height: 10vw;
+  width: 10vw;
+  border-top: 10vw solid #6d214f;
+  border-right: 10vw solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+#linkedInLogo {
+  width: 4vw;
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+}
+
+.hover {
+  background-color: pink;
+}
+
+#gitHub {
+  display: inline-block;
+  height: 10vw;
+  width: 10vw;
+  border-top: 10vw solid #b33771;
+  border-left: 10vw solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#gitHubLogo {
+  width: 5vw;
+  position: absolute;
+  top: 0.63vw;
+  right: 0.63vw;
+}
+
+#X {
+  display: inline-block;
+  height: 10vw;
+  width: 10vw;
+  border-bottom: 10vw solid #82589f;
+  border-left: 10vw solid transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#XLogo {
+  width: 5vw;
+  position: absolute;
+  bottom: 0.63vw;
+  right: 0.63vw;
+}
+
+#mail {
+  display: inline-block;
+  height: 10vw;
+  width: 10vw;
+  border-bottom: 10vw solid #d6a2e8;
+  border-right: 10vw solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#mailLogo {
+  width: 5vw;
+  position: absolute;
+  bottom: 0.63vw;
+  left: 0.63vw;
+}
+
+#arrow {
+  display: inline-block;
+  height: 4vw;
+  width: 4vw;
+  border-bottom: 4vw solid hsl(51, 82%, 98%);
+  border-right: 4vw solid transparent;
+  position: absolute;
+  rotate: -135deg;
+  bottom: 49vh;
+  right: 5vw;
+}
